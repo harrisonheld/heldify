@@ -8,5 +8,6 @@ bash "$ROOT_DIR/install-gnome-extentions.sh"
 bash "$ROOT_DIR/set-base-gnome-settings.sh"
 bash "$ROOT_DIR/apply-gnome-extention-settings.sh"
 bash "$ROOT_DIR/obliterate-corners.sh"
+bash "$ROOT_DIR/install-all-apps.sh"
 
 echo "Done. You should log out and back in for GNOME Shell changes to fully apply."
