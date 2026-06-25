@@ -1,10 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-sudo apt install python3-pip pipx gnome-shell-extensions
-
-pipx install gnome-extensions-cli --system-site-packages
-
 EXTENSIONS=(
     "dash-to-panel@jderose9.github.com"
     "blur-my-shell@aunetx"
